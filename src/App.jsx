@@ -10,7 +10,7 @@ function App() {
 
     return (
         <>
-            <Container className="mainContent my-5  contentContianer p-5">
+            <Container className="mainContent my-5 p-5 contentContainer">
                 <Row>
                     <Sidebar />
                     <MainContent />
