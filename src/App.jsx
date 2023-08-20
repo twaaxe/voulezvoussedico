@@ -12,18 +12,23 @@ import Sidebar from "./components/Sidebar";
 
 function App() {
     return (
+        <>
+            {/* <BrowserRouter>
+                <Header />
+                <Routes>
 
-        <BrowserRouter>
+                    <Route path="/" element={<Home />} />
+                    <Route path="Adress" element={<Adress />} />
+                    <Route path="Contact" element={<Contact />} />
+
+                </Routes>
+            </BrowserRouter> */}
+
             <Header />
-            {/* unLayout doit envlopper l app sous le router : layout = container ->sidebar + main content */}
-            <Routes>
-
-                <Route path="/" element={<Home />} />
-                <Route path="Adress" element={<Adress />} />
-                <Route path="Contact" element={<Contact />} />
-
-            </Routes>
-        </BrowserRouter>
+            <Home />
+            <Adress />
+            <Contact />
+        </>
 
     );
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import Sidebar from './Sidebar'
 import MainContent from './MainContent'
+import { Container, Row, Col } from 'react-bootstrap'
 
 function Home() {
     return (
