@@ -15,6 +15,7 @@ function App() {
 
         <BrowserRouter>
             <Header />
+            {/* unLayout doit envlopper l app sous le router : layout = container ->sidebar + main content */}
             <Routes>
 
                 <Route path="/" element={<Home />} />
