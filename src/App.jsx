@@ -2,10 +2,11 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
-import Adress from "./components/Adress";
+import AboutUs from "./components/AboutUs";
 import Contact from './components/Contact';
 import Home from "./components/Home";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 import MainContent from "./components/MainContent";
 import Sidebar from "./components/Sidebar";
@@ -13,21 +14,13 @@ import Sidebar from "./components/Sidebar";
 function App() {
     return (
         <>
-            {/* <BrowserRouter>
-                <Header />
-                <Routes>
 
-                    <Route path="/" element={<Home />} />
-                    <Route path="Adress" element={<Adress />} />
-                    <Route path="Contact" element={<Contact />} />
-
-                </Routes>
-            </BrowserRouter> */}
 
             <Header />
             <Home />
-            <Adress />
+            <AboutUs />
             <Contact />
+            <Footer />
         </>
 
     );
