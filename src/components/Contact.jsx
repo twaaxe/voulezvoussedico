@@ -46,14 +46,11 @@ function Contact() {
                 <Row>
                     <Col className="sideBar" sm={2} md={2}>
                         <Sidebar />
-
                     </Col>
 
 
                     <Col className="mainContent" sm={10} md={10} >
-
                         <ContactForm />
-
                     </Col>
 
                 </Row>
