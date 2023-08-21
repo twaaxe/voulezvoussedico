@@ -1,5 +1,26 @@
-.imageBrand {
-    background-color: rgb(175, 167, 167) !important;
-    height: 75%;
+body,
+#root {
+    height: 100vh;
+    margin: 0;
+}
 
+
+.imageBrand {
+    height: 100%;
+    background-image: url('../components/images/brand.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#footer {
+    position: sticky;
+    bottom: 0;
+
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    z-index: 99;
 }

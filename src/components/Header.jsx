@@ -13,7 +13,7 @@ export default function Header() {
     return (
         <>
 
-            <Navbar expand="lg" className="bg-body-tertiary">
+            <Navbar id="navbar" expand="lg" className="bg-body-tertiary ">
                 <Container className=" ">
                     <Navbar.Brand href="/home"><h3>Voulez-vous Sedico</h3></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
