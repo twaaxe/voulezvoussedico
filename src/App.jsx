@@ -8,19 +8,21 @@ import Home from "./components/Home";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
-import MainContent from "./components/MainContent";
-import Sidebar from "./components/Sidebar";
+
 
 function App() {
     return (
         <>
-
-
-            <Header />
-            <Home />
-            <AboutUs />
-            <Contact />
-            <Footer />
+            <BrowserRouter>
+                <Header />
+                <Routes>
+                    <Route path="/" element={<Home />}>
+                        <Route path="aboutUs" element={<AboutUs />} />
+                        <Route path="contact" element={<Contact />} />
+                    </Route>
+                </Routes>
+                <Footer />
+            </BrowserRouter>
         </>
 
     );
