@@ -22,6 +22,9 @@ function App() {
             </BrowserRouter> */}
             <Header />
             <Home />
+            <AboutUs />
+            <Contact />
+            <Footer />
         </>
 
     );

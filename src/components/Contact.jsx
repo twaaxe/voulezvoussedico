@@ -44,12 +44,12 @@ function Contact() {
         <div>
             <Container className="mainContent my-5  contentContainer">
                 <Row>
-                    <Col className="sideBar" sm={2} md={2}>
+                    <Col className="sideBar" sm={4} md={4}>
                         <Sidebar />
                     </Col>
 
 
-                    <Col className="mainContent" sm={10} md={10} >
+                    <Col className="" sm={8} md={8} >
                         <ContactForm />
                     </Col>
 

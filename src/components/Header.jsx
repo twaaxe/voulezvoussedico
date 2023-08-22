@@ -11,7 +11,7 @@ export default function Header() {
     return (
         <>
 
-            <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+            <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary ">
                 <Container>
                     <Navbar.Brand href="home">Voulez-vous Sedico</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
