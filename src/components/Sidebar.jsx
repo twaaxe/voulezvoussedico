@@ -10,19 +10,19 @@ function Sidebar() {
         <>
             <ListGroup variant="flush" defaultActiveKey="#link1">
                 <ListGroup.Item action href="gooele.com">
-                    Link 1
+                    Produtti per cappelli
                 </ListGroup.Item>
                 <ListGroup.Item action href="#link2" >
-                    Link 2
+                    attzetura per cappelli
                 </ListGroup.Item>
                 <ListGroup.Item action href="#link3"  >
-                    Link 3
+                    prodotti per estetice
                 </ListGroup.Item>
                 <ListGroup.Item action href="#link4" >
-                    Link 4
+                    attzetura per estetica
                 </ListGroup.Item>
                 <ListGroup.Item action href="#link5"  >
-                    Link 5
+                    ricostruczione unighe
                 </ListGroup.Item>
             </ListGroup>
         </>

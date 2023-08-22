@@ -13,12 +13,12 @@ export default function Header() {
 
             <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
                 <Container>
-                    <Navbar.Brand href="#home">Voulez-vous Sedico</Navbar.Brand>
+                    <Navbar.Brand href="home">Voulez-vous Sedico</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="#features">Pro</Nav.Link>
-                            <Nav.Link href="#pricing">Particulier</Nav.Link>
+                            <Nav.Link href="home">Pro</Nav.Link>
+                            <Nav.Link href="home">Particulier</Nav.Link>
                             <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">

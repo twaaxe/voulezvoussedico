@@ -7,7 +7,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 function Home() {
     return (
-        <Container className="mainContent my-5 p-5 contentContainer">
+        <Container className="mainContent my-5 contentContainer">
             <Row>
                 <Col className="sideBar" sm={2} md={2}>
                     <Sidebar />
