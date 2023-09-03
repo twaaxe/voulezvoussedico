@@ -21,9 +21,9 @@ function App() {
                 </Routes>
             </BrowserRouter> */}
             <Header />
-            {/* <Home /> */}
+            <Home />
             <AboutUs />
-            {/* <Contact /> */}
+            <Contact />
 
             <Footer />
         </>

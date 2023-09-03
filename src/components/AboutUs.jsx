@@ -14,7 +14,7 @@ function AboutUs() {
           </Col>
 
 
-          <Col className=" " sm={8} md={8} >
+          <Col className=" p-4 m-auto" sm={8} md={8} >
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dolorem id delectus fugiat excepturi neque ratione dignissimos necessitatibus quidem aliquid harum aspernatur eos eveniet libero ipsum nulla, suscipit quis vel?</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dolorem id delectus fugiat excepturi neque ratione dignissimos necessitatibus quidem aliquid harum aspernatur eos eveniet libero ipsum nulla, suscipit quis vel?</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dolorem id delectus fugiat excepturi neque ratione dignissimos necessitatibus quidem aliquid harum aspernatur eos eveniet libero ipsum nulla, suscipit quis vel?</p>
