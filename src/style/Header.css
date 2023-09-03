@@ -4,10 +4,21 @@
 
 nav {
     padding: 0 !important;
+    color: red !important;
 }
 
 #navbar {
     position: sticky;
     top: 0;
     z-index: 99;
+}
+
+.navbar-brand {
+    color: #1089FF;
+}
+
+
+
+nav>.container {
+    color: red !important
 }

@@ -7,15 +7,15 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 function Home() {
     return (
-        <Container className="mainContent my-5 contentContainer">
+        <Container className="mainContent my-5 contentContainer" style={{ height: "60vh" }}>
             <Row>
-                <Col className="sideBar" sm={4} md={4}>
+                <Col className="sideBar" xs={4} md={4}>
                     <Sidebar />
 
                 </Col>
 
 
-                <Col className=" " sm={8} md={8} >
+                <Col className=" " xs={8} md={8} >
                     <MainContent />
 
 
